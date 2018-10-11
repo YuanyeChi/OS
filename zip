@@ -1,0 +1,6 @@
+#zip everthing into new.zip
+zip -r new.zip ./*  
+#zip two certain goals into new.zip
+zip -r new.zip abc.txt def.md
+#unzip new.zip into /home/new
+unzip -o -d /home/new new.zip 
